@@ -1,7 +1,22 @@
 # ml_pp
 ML/DS Case. Political parties
 
+UPD:
 
+How to run analysis
+
+> jupyter notebook
+
+Choose analysis.ipynb to see the case solution. Dimensionality reduction method is put into separate poly.py module.
+
+To run integration test run the following command
+
+> pytest
+
+The solution was not put into docker container due to lack of time. Integration and unit tests are also not in the best shape for the same reason but the integration test is doing what it is supposed to do
+
+
+--
 Answers to 
 
 5.:
