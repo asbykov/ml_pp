@@ -2,7 +2,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import pandas as pd
 
-
 def dim_reduction(df, n_dim, features, index_features, scaler=None, pca=None):
     # Input:
     # Pandas DataFrame df - data of political parties
